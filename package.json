@@ -1,7 +1,7 @@
 {
   "name": "x_clone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js",
     "build": "npm install && npm install --include=dev --prefix frontend && npm run build --prefix frontend && node copy-dist.js",
